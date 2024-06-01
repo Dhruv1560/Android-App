@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/randommmmm"
+    tools:context=".VerifyMobileOtp">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:text="Confirmation Of Booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:textSize="19dp"
+        android:textColor="@color/Black"
+        android:layout_marginTop="100dp"
+        android:text="Verify Your Number First....."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/verifymobileotp_layout"
+        android:layout_marginTop="160dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Spinner
+            android:layout_marginLeft="20dp"
+            android:id="@+id/verifymobileotp_spinner"
+            android:layout_width="100dp"
+            android:layout_height="35dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/verifymobileotp_mobileno"
+                android:hint="Enter Your Phone number"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="send_sms"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/verifymobileotp_layout"
+        android:id="@+id/verifymobileotp_btn_continue"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/White"
+        android:text="Continue"
+        android:layout_width="150dp"
+        android:layout_height="60dp" />
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/verifymobileotp_btn_continue"
+        android:id="@+id/verifymobileotp_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_below="@+id/verifymobileotp_btn_continue"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Code"
+        android:layout_marginTop="30dp"
+        android:id="@+id/verifymobileotp_otp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="verify"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/verifymobileotp_otp"
+        android:textColor="@color/White"
+        android:backgroundTint="@color/red"
+        android:text="Submit"
+        android:id="@+id/verifymobileotp_btn_submit"
+        android:layout_width="150dp"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Book advanced You have to subscribe car to your account"
+        android:textSize="15dp"
+        android:textColor="@color/Black"/>
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/iv"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:text=""
+        android:paddingLeft="170dp"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:layout_below="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:onClick="OnSubscribe"
+        android:id="@+id/Subscribe"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/White"
+        android:text="Subscribe"
+        android:background="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

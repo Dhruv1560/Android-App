@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhruvpatel.login.Privacy">
+
+        <RelativeLayout
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. General"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv2"
+            android:layout_below="@id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Car rental services private limited is a company incorporated under the laws of india, with its registered office at office, Banglore - 560008, India and having CIN : e2ew263e3333ww5ewf1. Upon Renting Pedl, the member accept the current, valid version of car rental available at https://www.carrentalservices.com/policies#privacy"
+            android:textColor="@color/Black"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_below="@id/tv2"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Person permitted to ride bi-cycle"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv4"
+            android:layout_below="@id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member must be atleast 18 years of age.Member is mandatory to join his account to wallet with sufficient balance.Any other member may drive a PEDL that has been blocked by another with the permission of the member having carried out the booking.All fees and charges shall be determined in accordance with application."
+            android:textColor="@color/Black"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_below="@id/tv4"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Booking PEDL "
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv6"
+            android:layout_below="@id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booking is required for all potential booking. Member must always book a bi-cycle in guidance of the Frequently AskedQuestion (FAQs) availaible at https://www.carrentalservices.com/faq-support and will be charged for usage fees at the time of booking in the manner as contained in the said FAQs. The current bboking is scheduled to end if there is no sufficient balance in the wallet and if the payment is not being made for the continue usage."
+            android:textColor="@color/Black"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_below="@id/tv6"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Required documents "
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv8"
+            android:layout_below="@id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The member may be requiered to provide documents on the requesting of vehicles and the use of PEDL : Identity proof , Adhar card, Passport, Pan, Birth Certificate, Address proof, Light bill."
+            android:textColor="@color/Black"
+            android:textSize="17dp"
+            />
+            <TextView
+                    android:layout_below="@id/tv8"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Vehicle Pick-Up and return policy  "
+                    android:textColor="@color/Black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    />
+            <TextView
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/tv10"
+                    android:layout_below="@id/tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle should be pick up from a perticular location under the circumstances and drop to the exctly same location in the manner with faqs. To carry vehile owner and driver both have license to drive and they have to submitted their license copy to our agent. Incase any kind of any Demage of vehicel driver should be responsible for that. There should ne strictly action has been taken to the use of purpose of illegal use og vehicle."
+                    android:textColor="@color/Black"
+                    android:textSize="17dp"
+                    />
+
+
+
+        </RelativeLayout>
+
+</ScrollView>

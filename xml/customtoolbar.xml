@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/bg6">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/White"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingTop="6dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/Black"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Rental"/>
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/red"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
